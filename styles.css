@@ -1,9 +1,5 @@
 div#month {
 height: 65%;
-width: 70%;
+width: 75%;
 }
-div#calendarcontainer {
-display: flex;
-flex-direction: column;
 
-}
