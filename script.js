@@ -1,5 +1,4 @@
-<script>
-        function captureDate() {
+ function captureDate() {
             // Get the input element by its ID
             const dateInput = document.getElementById('dateInput');
 
@@ -9,4 +8,4 @@
             // Display the selected date (you can perform any further processing here)
             alert("Selected Date: " + selectedDate);
         }
-    </script>
+    
