@@ -7,5 +7,7 @@
 
             // Display the selected date (you can perform any further processing here)
             alert("Selected Date: " + selectedDate);
+
+  outputDiv.innerHTML = '<p>' + selectedDate + '</p>';
         }
     
