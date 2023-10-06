@@ -22,11 +22,11 @@
     
     <nav class="navbar bg-body-tertiary shadow-lg p-3 mb-5 bg-body-tertiary rounded border">
   <div class="container-fluid">
-    <a class="navbar-brand">Input Date:</a>
+    <a class="navbar-brand"><label for="dateInput">Select a Date:</label>
     <form class="d-flex" role="search">
-      <input class="form-control me-2" type="date" placeholder="date" aria-label="Date">
-      <button class="btn btn-outline-success" type="submit">Submit</button>
-    </form>
+      <input class="form-control me-2" type="date" placeholder="date" aria-label="Date" id="dateInput">
+      <button class="btn btn-outline-success" type="button" onclick="captureDate()">Submit</button>
+    </form></a>
   </div>
 </nav>
   </header>
