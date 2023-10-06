@@ -1,4 +1,12 @@
- function captureDate() {
+$(document).ready(function(){
+    $("#myCarousel").carousel();
+});
+
+
+
+
+
+function captureDate() {
             // Get the input element by its ID
             const dateInput = document.getElementById('dateInput');
 
