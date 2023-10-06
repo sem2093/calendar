@@ -3,12 +3,10 @@ height: 65%;
 width: 75%;
 }
 
-div.ph {
-height: 65%
-width: 100%
-}
 div#carouselExampleDark {
-width: 90%;
-height:40%;
+width: 100%;
+height:30%;
 border: 2px solid red;
+position: fixed;
+bottom: 5px;
 }
