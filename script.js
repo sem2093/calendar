@@ -8,7 +8,7 @@
             const li = document.createElement('li');
             li.innerHTML = `
                 <span>${taskText}</span>
-                <button onclick="removeTask(this)">Delete</button>
+                <button onclick="removeTask(this)" class="btn btn-danger">Delete</button>
             `;
             taskList.appendChild(li);
             taskInput.value = '';
@@ -20,4 +20,4 @@
         }
         
     
-
+<button type="button" class="btn btn-dark">Dark</button>
