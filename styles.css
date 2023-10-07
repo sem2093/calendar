@@ -6,8 +6,6 @@ width: 75%;
 div#carouselExampleDark {
 height:30%;
 border: 2px solid red;
-position: fixed;
-bottom: 5px;
 }
 footer {
 
