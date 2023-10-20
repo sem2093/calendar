@@ -17,69 +17,22 @@
   </div>
 </nav>  
   </header>
+ 
 <main>
-  <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"> <i class="bi bi-calendar2-fill"></i> Jan 2024 - 2 Holidays</a><i class="bi bi-list-task"></i> <i class="bi bi-pencil-fill"></i>
-  </div>
-    </nav>
-    <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"> <i class="bi bi-calendar2-fill"></i>  Feb 2024 - 4 Holidays</a> <i class="bi bi-list-task"></i><i class="bi bi-pencil-fill"></i> 
-  </div>
-</nav>
-  <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"> <i class="bi bi-calendar2-fill"></i> Mar 2024 - 7 Holidays</a> <i class="bi bi-list-task"></i><i class="bi bi-pencil-fill"></i>
-  </div>
-</nav>
-  <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"> <i class="bi bi-calendar2-fill"></i>Apr 2024 - 4 Holidays</a> <i class="bi bi-list-task"></i><i class="bi bi-pencil-fill"></i>
-  </div>
-    </nav>
-    <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="bi bi-calendar2-fill"></i> May 2024 - 3 Holidays</a><i class="bi bi-list-task"></i><i class="bi bi-pencil-fill"></i>
-  </div>
-  </div>
-</nav>
-  <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="bi bi-calendar2-fill"></i> Jun 2024 - 4 Holidays</a>
-  </div>
-</nav>
-  <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="bi bi-calendar2-fill"></i> Jul 2024 - 2 Holidays</a><i class="bi bi-list-task"></i><i class="bi bi-pencil-fill"></i>
-  </div>
-</nav>
-  <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="bi bi-calendar2-fill"></i> Aug 2024 - 0 Holidays</a><i class="bi bi-list-task"></i><i class="bi bi-pencil-fill"></i>
-  </div>
-</nav>
-  <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"> <i class="bi bi-calendar2-fill"></i> Sep 2024 - 1 Holiday</a><i class="bi bi-list-task"></i><i class="bi bi-pencil-fill"></i>
-  </div>
-</nav>
-  <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="bi bi-calendar2-fill"></i> Oct 2024 - 4 Holidays</a><i class="bi bi-list-task"></i><i class="bi bi-pencil-fill"></i>
-  </div>
-</nav>
-  <nav class="navbar bg-body-tertiary border ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="bi bi-calendar2-fill"></i> Nov 2024 - 6 Holidays</a><i class="bi bi-list-task"></i><i class="bi bi-pencil-fill"></i>
-  </div>
-</nav>
-  <nav class="navbar bg-body-tertiary border">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="bi bi-calendar2-fill"></i> Dec 2024 - 4 Holidays</a><i class="bi bi-list-task"></i><i class="bi bi-pencil-fill"></i>
-  </div>
-</nav>
+  <h2> Current Date & Time </h2>
+  <div id="now" class="card"></div>
+  
+  <h2>Add:</h2>
+  <div class="input-group mb-3">
+  <button class="btn btn-outline-secondary" type="button" onclick="createTask()">Task</button>
+  <button class="btn btn-outline-secondary" type="button" onclick="createEvent()">Event</button>
+  <input type="text" class="form-control" placeholder="Title" aria-label="Example text with two button addons">
+</div>
+  <div id="form" class="card"></div>
 
+<h2>View Calandar</h2>
+  <div id="calandar" class="card"></div>
+  
 </main>
   
   
