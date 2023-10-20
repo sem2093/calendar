@@ -5,8 +5,7 @@ clock.innerHTML= currentTime;
 const title= document.getElementById("appointmentTitle").value;
 // create task form generation
  function createTask() {
-  // define title for task/Event 
-            const parentElement = document.createElement("div");
+  const parentElement = document.createElement("div");
   const newChildElement = document.createElement("form");
             newChildElement.innerHTML = `
             <h5>${title}</h5>
@@ -16,15 +15,12 @@ const title= document.getElementById("appointmentTitle").value;
                 <button onclick="remove(this)" class="btn btn-danger">Cancel</button>
             `;
            parentElement.appendChild(newChildElement);
-
-  const existingParent = document.getElementById("formBox");
+ const existingParent = document.getElementById("formBox");
   existingParent.appendChild(parentElement);
             }
 //create event form generation
 function createEvent() {
- // define title for task/Event 
-
-            const parentElement = document.createElement("div");
+ const parentElement = document.createElement("div");
   const newChildElement = document.createElement("form");
             newChildElement.innerHTML = `
             <h5>${title}</h5>
@@ -49,14 +45,14 @@ function addTask(){
  const taskNotes = document.querySelector(".taskNotes").value;
  const deadLine = document.querySelector(".deadLine").value;
  const form = document.querySelector("form");
- formBox.removeChild(form);
+ parentElement.removeChild(form);
 
 }
 //process event form 
 function addEvent(){
- const taskNotes = document.querySelector(".taskNotes").value;
+ const taskNotes = document.querySelector(".eventNotes").value;
 const form = document.querySelector("form");
- formBox.removeChild(form);
+ parentElement.removeChild(form);
  
 }
 const colorMode = document.getElementById("colorMode");
