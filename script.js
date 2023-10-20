@@ -6,7 +6,7 @@ const formBox = document.getElementById("formBox");
 // create task form generation
  function createTask() {
   // define title for task/Event 
- const title= document.getElementById(" ").value;
+ const title= document.getElementById("appointmentTitle").value;
             const taskForm= document.createElement('form');
             taskForm.innerHTML = `
             <h5 class="appointmentTitle">${title}</h5>
@@ -20,7 +20,7 @@ const formBox = document.getElementById("formBox");
 //create event form generation
 function createEvent() {
  // define title for task/Event 
-const title= document.getElementById(" ").value;
+const title= document.getElementById("appointmentTitle").value;
             const eventForm= document.createElement('form');
             eventForm.innerHTML = `
             <h5 class="appointmentTitle">${title}</h5>
