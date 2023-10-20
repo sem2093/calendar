@@ -13,7 +13,12 @@
   <header>  
 <nav class="navbar bg-body-tertiary border">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><h1 class="display-1"><i class="bi bi-calendar-fill"></i> Calendar</h1></a>
+    <a class="navbar-brand" href="#"><i class="bi bi-calendar-fill"></i> Calendar</a>
+    <div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="colorMode">
+  <label class="form-check-label" for="flexSwitchCheckDefault"><i class="bi bi-moon-stars-fill"></i></label>
+</div>
+    
   </div>
 </nav>  
   </header>
@@ -28,7 +33,7 @@
   <button class="btn btn-outline-secondary" type="button" onclick="createEvent()">Event</button>
   <input type="text" class="form-control" placeholder="Title" aria-label="Example text with two button addons">
 </div>
-  <div id="form" class="card"></div>
+  <div id="formBox" class="card"></div>
 
 <h2>View Calandar</h2>
   <div id="calandar" class="card"></div>
